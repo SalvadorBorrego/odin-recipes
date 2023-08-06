@@ -2,9 +2,12 @@
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
+body {
+    background-color: beige;
+}
+
 h1, h2 {
     text-align: center;
-    background-color: green;
 }
 
 img {
@@ -13,8 +16,31 @@ img {
     margin-right: auto;
 }
 
-ul {
-    background-color: red;
+.title {
+    background-color: coral;
+    margin: 16px;
+    padding: 10px;
+}
+
+.description {
+    margin:16px;
+    padding: 10px;
+}
+
+.ingredients {
+    border: 2px solid red;
+    margin:16px;
+    padding: 10px;
+}
+
+.instructions {
+    border: 2px solid red;
+    margin:16px;
+    padding: 10px;
+}
+
+.pie {
+    margin:16px;
 }
 
 a:link {
